@@ -1,0 +1,58 @@
+header {
+    background-color: #3A3A3A;
+    padding: 1vw 10vw;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-logo img {
+max-width: 12vw;
+}
+
+/* Menu Styles */
+.menu, .bookings-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 2vw;
+}
+.menu {
+    display: flex;
+}
+.menu a  {
+    color: #CCA050;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.8em;
+    display: block;
+}
+.menu a:hover {
+    color: #3A3A3A;
+    background-color: #CCA050;
+}
+.bookings-list a {
+    color: #3A3A3A;
+    background-color: #9c8d72;
+}
+.bookings-list {
+    display: none;
+    background-color: #CCA050;
+}
+.menu-parent {
+    position: relative;
+}
+.menu-parent:hover .bookings-list {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 180px;
+}
+.menu-toggle {
+    font-size: 2.5rem;
+    display: none;
+    color: #CCA050;
+}
