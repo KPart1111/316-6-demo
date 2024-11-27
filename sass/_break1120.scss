@@ -1,5 +1,5 @@
 @media screen and (max-width: 1120px) {
-  body {
+  .wrapper {
     padding: 8vw;
   }
   .row {
@@ -7,5 +7,8 @@
     .col {
       flex-basis: auto;
     }
+  }
+  h2 {
+    margin-top: 0;
   }
 }

@@ -1,15 +1,13 @@
 @use "sass:color";
 
-$font__main: 'Sorts Mill Goudy', serif;
-$font__heading: 'Montserrat', sans-serif;
+$font__main: "Nunito", serif;
+$font__heading: "Chewy", system-ui;
 
-$color__blue: #4778ce;
-$color__orange: #ff4d00;
+$color__yellow: #ffde3c;
+$color__red: #E4000A;
 $color__grey: #aeb2b4;
 $color__white: #ffffff;
-$color__block: #000000;
+$color__black: #000000;
 
-$color__background: #fefefe;
-
-$color__link: $color__blue;
-$color__link-hover: color.adjust($color__blue, $lightness: 15%);
+$color__link: $color__yellow;
+$color__link-hover: color.adjust($color__yellow, $lightness: 15%);

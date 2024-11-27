@@ -1,5 +1,54 @@
-@media screen and (max-width: 600px) {
-     body {
+@media screen and (max-width: 768px) {
+     .wrapper {
           padding: 5vw;
      }
+     header {
+          position: relative;
+          padding: 4vw;
+     }
+     .menu {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          right: 0;
+          background-color: #283C5E;
+          color: #8BC4E8;
+          a:hover {
+             color: #0f1724;
+             -webkit-text-stroke: #0f1724 0px;
+             background-color: #41B5E6;
+         }
+         a {
+             color: #8BC4E8;
+             background-color: #283C5E;
+             -webkit-text-stroke: #8BC4E8 0px;
+        }
+     }
+     .menu-toggle {
+          display:block;
+     }
+     .menu.show {
+          display: block;
+     } 
+     .section-img {
+          max-width: 80vw;
+          max-height: 50vh;
+          float: center;
+          padding-top: 5vw;
+     }
+
+     .text {
+          max-width: 80vw;
+          padding-right: 0;
+     }
+}
+@media screen and (min-width: 768px) { 
+     .menu-toggle {
+          font-size: 2.5rem;
+          display: none;
+      }
+      .menu {
+          display: flex;
+      }
 }
