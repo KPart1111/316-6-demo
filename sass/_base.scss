@@ -21,13 +21,12 @@ a {
 .row {
   display: flex;
   justify-content: space-between;
-
   .col {
     flex-basis: 50%;
   }
 }
 .button {
-  padding: 1em;
+  padding: .5em;
   border-radius: 3px;
   background-color: $color__red;
   display: inline-block;
@@ -56,12 +55,20 @@ img {
   padding-top: 0;
   padding-right: 0;
 }
-li {
-  line-height: 2;
-}
-
 .section-img {
   max-width: 80vw;
-  /* max-height: 40vh; */
   float: left;
+}
+.backtotop {
+  padding: .5em;
+  border-radius: 3px;
+  color: $color__white;
+  background-color: $color__red;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+  bottom: .25em;
+  right: 1.65em;
+  position: fixed;
 }

@@ -4,32 +4,34 @@ header {
     padding: 1vw 10vw;
     margin: 0;
     font-family: $font__heading;
-}
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.site-logo img {
-max-width: 12vw;
-}
-
-/* Menu Styles */
-.menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 3vw;
-}
-
-.menu a  {
-    color: $color__red;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 0.8em;
-    display: block;
-}
-.menu a:hover {
-    color: $color__white;
-    background-color: $color__red;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .site-logo img {
+            max-width: 12vw;
+        }
+        /* Menu Styles */
+        .menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 3vw;
+            li {
+                line-height: 2;
+              }
+            a  {
+                color: $color__red;
+                text-decoration: none;
+                font-weight: 600;
+                padding: 0.8em;
+                display: block;
+            }
+            a:hover {
+                color: $color__white;
+                background-color: $color__red;
+            }
+            
+        }
+    }
 }
